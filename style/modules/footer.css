@@ -1,0 +1,21 @@
+.footer {
+    background: #C9C9C9;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer__contacts {
+    line-height: 20px;
+    text-align: right;
+}
+
+.footer__contacts p:first-child {
+    margin-bottom: 13px;
+}

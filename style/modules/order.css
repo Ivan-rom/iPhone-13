@@ -1,0 +1,36 @@
+.order {
+    margin-top: 169px;
+    text-align: center;
+}
+
+.order__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+}
+
+.form__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 58px;
+}
+
+.form__fieldset {
+    border: 1px solid #C9C9C9;
+    border-radius: 30px;
+    padding: 70px 80px 100px;
+    text-align-last: left;
+}
+
+.form__legend {
+    font-weight: 300;
+    text-align: center;
+    color: #C9C9C9;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.form__btn {
+    margin-top: 80px;
+}

@@ -1,0 +1,27 @@
+.hero {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.hero__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.hero__title {
+    font-size: 34px;
+    line-height: 41px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.hero__price {
+    margin-top: 24px;
+    line-height: 23px;
+}
+
+
+.hero__img {
+    margin-top: 100px;
+}
