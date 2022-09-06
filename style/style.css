@@ -63,3 +63,9 @@ iframe {
     border-radius: 30px;
 	cursor: pointer;
 }
+
+@media (max-width: 800px) {
+	.btn {
+		font-size: 18px;
+	}
+}

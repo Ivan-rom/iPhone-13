@@ -1,7 +1,38 @@
 .header__container {
-    max-width: 1130px;
+    max-width: 1190px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 0 auto;
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__el {
+    padding: 10px 25px;
+}
+
+.nav__el:not(:last-child) {
+    border-right: 1px solid #C9C9C9; 
+}
+
+@media (max-width: 800px) {
+    .nav__list {
+        font-size: 16px;
+        display: block;
+    }
+
+    .nav__el:not(:last-child) {
+        border: none;
+    }
+
+    .nav__el {
+        text-align: right;
+        padding: 0;
+        line-height: 24px;
+    }
 }
