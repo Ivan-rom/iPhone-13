@@ -2,6 +2,7 @@
     background: #C9C9C9;
     color: #ffffff;
     margin-top: 100px;
+    font-weight: 400;
 }
 
 .footer__container {
@@ -16,8 +17,9 @@
     text-align: right;
 }
 
-.footer__contacts p:first-child {
-    margin-bottom: 13px;
+.footer__contacts a {
+    line-height: 33px;
+    margin-top: 13px;
 }
 
 @media (max-width: 800px) {

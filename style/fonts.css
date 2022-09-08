@@ -1,8 +1,8 @@
 @font-face {
     font-family: "SF UI Text";
     src: local("SF UI Text"),
-        url(../fonts/SFUIText-Light.woff2) format(woff2),
-        url(../fonts/SFUIText-Light.woff) format(woff);
+        url(../fonts/SFUIText-Light.woff2),
+        url(../fonts/SFUIText-Light.woff);
     font-style: normal;
     font-weight: 300;
     font-display: swap;
@@ -11,19 +11,19 @@
 @font-face {
     font-family: "SF UI Text";
     src: local("SF UI Text"),
-        url(../fonts/SFUIText-Medium.woff2) format(woff2),
-        url(../fonts/SFUIText-Medium.woff) format(woff);
+        url(../fonts/SFUIText-Regular.woff2),
+        url(../fonts/SFUIText-Regular.woff);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
     font-family: "SF UI Text";
     src: local("SF UI Text"),
-        url(../fonts/SFUIText-Regular.woff2) format(woff2),
-        url(../fonts/SFUIText-Regular.woff) format(woff);
+        url(../fonts/SFUIText-Medium.woff2),
+        url(../fonts/SFUIText-Medium.woff);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-display: swap;
 }

@@ -1,11 +1,18 @@
 .hero {
     text-align: center;
-    background-image: url(../../images/phones.jpg);
+    background-image: url(../../images/squoosh/phones.jpg);
     background-repeat: no-repeat;
     background-position: 50% bottom;
+    background-size: 1290px;
     padding: 0 30px;
     padding-bottom: 560px;
     margin-top: 130px;
+}
+
+@media (min-resolution: 2dppx) {
+    .hero {
+        background-image: url(../../images/squoosh/phones-2x.jpg);
+    }
 }
 
 .hero__subtitle {
@@ -17,7 +24,7 @@
 .hero__title {
     font-size: 34px;
     line-height: 41px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 24px;
 }
 
@@ -28,8 +35,15 @@
 
 @media (max-width: 800px) {
     .hero {
-        background-size: 980px;
+        background-size: 800px;
         padding-bottom: 400px;
+        background-image: url(../../images/squoosh/phones-800.jpg);
+    }
+
+    @media (min-resolution: 2dppx) {
+        .hero {
+            background-image: url(../../images/squoosh/phones-800-2x.jpg);
+        }
     }
 
     .hero__title {
@@ -48,5 +62,18 @@
 @media (max-width: 768px) {
     .hero {
         padding-bottom: 440px;
+    }
+}
+
+@media (max-width: 440px) {
+    .hero {
+        background-size: 400px;
+        background-image: url(../../images/squoosh/phones-mob.jpg);
+    }
+
+    @media (min-resolution: 2dppx) {
+        .hero {
+            background-image: url(../../images/squoosh/phones-mob-2x.jpg);
+        }
     }
 }

@@ -8,6 +8,7 @@
 .features__title {
     font-size: 34px;
     line-height: 40px;
+    font-weight: 500;
 }
 
 .features__list {
@@ -31,9 +32,9 @@
 
 .features__element-text {
     margin-top: 20px;
-    font-weight: 700;
     font-size: 22px;
     line-height: 26px;
+    font-weight: 500;
 }
 
 @media (max-width: 910px) {

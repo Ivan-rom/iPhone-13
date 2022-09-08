@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/fonts.css">
     <link rel="stylesheet" href="index.css">
     <title>iPhone 13</title>
 </head>
@@ -35,33 +36,82 @@
             <h2 class="features__title">iPhone 13. Ничего лишнего</h2>
             <ul class="features__list">
                 <li class="features__element">
-                    <img src="images/camera.jpg" alt="" class="features__img">
+                    <picture>
+                        <source type="image/avif" srcset="images/camera.avif 1x, images/camera-2x.avif 2x">
+                        <source type="image/webp" srcset="images/camera.webp 1x, images/camera-2x.webp 2x">
+                        <img 
+                        src="images/camera.jpg" 
+                        srcset="images/camera-2x.jpg 2x"
+                        alt="Новый модуль камер"
+                        class="features__img">
+                    </picture>
                     <h3 class="features__element-title">Камера</h3>
                     <p class="features__element-text">Система камер PRO.</p>
                 </li>
                 <li class="features__element">
-                    <img src="images/compect.jpg" alt="" class="features__img">
+                    <picture>
+                        <source type="image/avif" srcset="images/compect.avif 1x, images/compect-2x.avif 2x">
+                        <source type="image/webp" srcset="images/compect.webp 1x, images/compect-2x.webp 2x">
+                        <img 
+                        src="images/compect.jpg"
+                        srcset="images/compect-2x.jpg 2x"
+                        alt="Коробка с шнуром и телефоном"
+                        class="features__img">
+                    </picture>
+                    
                     <h3 class="features__element-title">Комплектация</h3>
                     <p class="features__element-text">Зарядное устройство.<br>Беспроводные наушники.</p>
                 </li>
                 <li class="features__element">
-                    <img src="images/color.jpg" alt="" class="features__img">
-                    <h3 class="features__element-title">Цвет</h3>
+                    <picture>
+                        <source type="image/avif" srcset="images/color.avif 1x, images/color-2x.avif 2x">
+                        <source type="image/webp" srcset="images/color.webp 1x, images/color-2x.webp 2x">
+                        <img 
+                        src="images/color.jpg"
+                        srcset="images/color-2x.jpg 2x"
+                        alt="Серый и синий телефоны"
+                        class="features__img">
+                        <h3 class="features__element-title">Цвет</h3>
+                    </picture>
                     <p class="features__element-text">Глубоководный синий.<br>Графитовый.</p>
                 </li>
                 <li class="features__element">
-                    <img src="images/frame.jpg" alt="" class="features__img">
-                    <h3 class="features__element-title">Корпус</h3>
+                    <picture>
+                        <source type="image/avif" srcset="images/frame.avif 1x, images/frame-2x.avif 2x">
+                        <source type="image/webp" srcset="images/frame.webp 1x, images/frame-2x.webp 2x">
+                        <img 
+                        src="images/frame.jpg"
+                        srcset="images/frame-2x.jpg 2x"
+                        alt="Зеленый телефон"
+                        class="features__img">
+                        <h3 class="features__element-title">Корпус</h3>
+                    </picture>
                     <p class="features__element-text">Водонипроницаемый и<br>противоударный корпус.</p>
                 </li>
                 <li class="features__element">
-                    <img src="images/line.jpg" alt="" class="features__img">
-                    <h3 class="features__element-title">Линейка</h3>
+                    <picture>
+                        <source type="image/avif" srcset="images/line.avif 1x, images/line-2x.avif 2x">
+                        <source type="image/webp" srcset="images/line.webp 1x, images/line-2x.webp 2x">
+                        <img 
+                        src="images/line.jpg"
+                        srcset="images/line-2x.jpg 2x"
+                        alt="Синие и белые телефоны"
+                        class="features__img">
+                        <h3 class="features__element-title">Линейка</h3>
+                    </picture>
                     <p class="features__element-text">iPhone 13, iPhone 13 mini,<br>iPhone 13 Pro и 13 Pro Max.</p>
                 </li>
                 <li class="features__element">
-                    <img src="images/charger_magnetic.jpg" alt="" class="features__img">
-                    <h3 class="features__element-title">Зарядка</h3>
+                    <picture>
+                        <source type="image/avif" srcset="images/charger_magnetic.avif 1x, images/charger_magnetic-2x.avif 2x">
+                        <source type="image/webp" srcset="images/charger_magnetic.webp 1x, images/charger_magnetic-2x.webp 2x">
+                        <img 
+                        src="images/charger_magnetic.jpg"
+                        srcset="images/charger_magnetic-2x.jpg 2x"
+                        alt="Телефон с беспроводной зарядкой на магните"
+                        class="features__img">
+                        <h3 class="features__element-title">Зарядка</h3>
+                    </picture>
                     <p class="features__element-text">Аккумулятор-магнит.</p>
                 </li>
             </ul>
@@ -129,11 +179,14 @@
     </main>
     <footer class="footer">
         <div class="container footer__container">
-            <div class="footer__copyright">© iPhone 13 Promo, 2021</div>
-            <div class="footer__contacts">
-                <p>Design by Anastasia&nbsp;Ilina</p>
-                <a href="ilina9825@gmail.com" target="_blank">ilina9825@gmail.com</a>
-            </div>
+            <p class="footer__copyright">
+                © iPhone 13 Promo, 2021
+            </p>
+
+            <p class="footer__contacts">
+                Design by Anastasia&nbsp;Ilina<br>
+                <a href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a>
+            </p>
         </div>
     </footer>
 </body>
